@@ -20,3 +20,9 @@ ln -s ~/.dotfiles/.config/qtile ~/.config/
 
 # Compositor
 sudo pacman -S picom
+
+
+# Wallpaper setter
+sudo pacman -S feh
+ln -s ~/.dotfiles/.wallpapers ~/Images/Wallpapers
+feh --bg-scale ~/Images/Wallpapers/arch-green.png &
