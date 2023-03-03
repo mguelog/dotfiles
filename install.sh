@@ -26,3 +26,7 @@ sudo pacman -S picom
 sudo pacman -S feh
 ln -s ~/.dotfiles/.wallpapers ~/Images/Wallpapers
 feh --bg-scale ~/Images/Wallpapers/arch-green.png &
+
+
+# Command-line shell
+ln -s ~/.dotfiles/.bashrc ~/
