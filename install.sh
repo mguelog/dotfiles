@@ -16,3 +16,7 @@ systemctl enable lightdm
 # Window manager
 sudo pacman -S qtile
 ln -s ~/.dotfiles/.config/qtile ~/.config/
+
+
+# Compositor
+sudo pacman -S picom
