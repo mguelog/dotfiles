@@ -35,3 +35,8 @@ ln -s ~/.dotfiles/.bashrc ~/
 # Terminal emulator
 sudo pacman -S alacritty
 ln -s ~/.dotfiles/.config/alacritty ~/.config/
+
+
+# File manager
+sudo pacman -S thunar
+ln -s ~/.dotfiles/.config/Thunar ~/.config/

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+	<action>
+		<icon>utilities-terminal</icon>
+		<name>Open Terminal Here</name>
+		<unique-id>1661702951211089-1</unique-id>
+		<command>alacritty</command>
+		<description>Open terminal in current folder</description>
+		<patterns>*</patterns>
+		<startup-notify />
+		<directories />
+	</action>
+</actions>
