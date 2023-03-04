@@ -30,3 +30,8 @@ feh --bg-scale ~/Images/Wallpapers/arch-green.png &
 
 # Command-line shell
 ln -s ~/.dotfiles/.bashrc ~/
+
+
+# Terminal emulator
+sudo pacman -S alacritty
+ln -s ~/.dotfiles/.config/alacritty ~/.config/
