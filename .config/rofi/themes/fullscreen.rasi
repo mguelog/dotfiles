@@ -1,0 +1,62 @@
+/*
+ * Based on Benjamin Stauss 
+ * (https://github.com/davatorium/rofi-themes/blob/master/User%20Themes/onedark.rasi)
+ */
+
+@import "colors/dracula"
+
+* {
+    spacing: 7;
+    background-color: transparent;
+    text-color: @text;
+}
+
+window {
+    transparency: "real";
+    fullscreen: true;
+    background-color: @background;
+}
+
+mainbox {
+    padding: 30% 35%;
+}
+
+inputbar {
+    margin: 0px 0px 20px 0px;
+    children: [prompt, textbox-prompt-colon, entry];
+}
+
+prompt {
+    text-color: @primary;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":"; 
+}
+
+entry {
+    margin: 0px 5px;
+}
+
+listview {
+    spacing: 5px;
+    dynamic: true;
+}
+
+element {
+    padding: 7px;
+    border-radius: 10px;
+}
+
+element selected {
+    background-color: @emphasis;
+}
+
+message {
+    padding: 10px;
+    background-color: @emphasis;
+    border-radius: 10px;
+    border: 3px;
+    border-color: @primary;
+}

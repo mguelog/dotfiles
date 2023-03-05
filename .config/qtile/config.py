@@ -93,6 +93,9 @@ keys = [
     # Rofi windows nav
     Key([mod, "shift"], "m", lazy.spawn("rofi -show"),
         desc="Launch Rofi windows nav"),
+    # Rofi emoji selection menu
+    Key([mod, "control"], "m", lazy.spawn("rofi -modi emoji -show emoji -emoji-mode menu"),
+        desc="Launch Rofi emoji selection menu"),
 
     # Launch terminal
     Key([mod], "Return", lazy.spawn(terminal),

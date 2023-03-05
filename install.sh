@@ -40,3 +40,8 @@ ln -s ~/.dotfiles/.config/alacritty ~/.config/
 # File manager
 sudo pacman -S thunar
 ln -s ~/.dotfiles/.config/Thunar ~/.config/
+
+
+# Application launcher
+sudo pacman -S rofi papirus-icon-theme rofi-emoji xdotool xclip noto-fonts-emoji
+ln -s ~/.dotfiles/.config/rofi ~/.config/

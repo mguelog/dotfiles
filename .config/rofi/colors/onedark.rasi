@@ -1,0 +1,6 @@
+* {
+    background: #282c34dd;
+    primary:    #61afef;
+    emphasis:   #4b5263;
+    text:       #ffffff;
+}

@@ -1,0 +1,9 @@
+configuration {
+    modi: "window,drun,ssh,combi";
+    font: "monospace 18";
+    combi-modi: "window,drun,ssh";
+    show-icons: true;
+    icon-theme: "Papirus";
+}
+
+@theme "fullscreen"
