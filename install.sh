@@ -49,3 +49,9 @@ ln -s ~/.dotfiles/.config/Thunar ~/.config/
 # Application launcher
 sudo pacman -S rofi papirus-icon-theme rofi-emoji xdotool xclip noto-fonts-emoji --noconfirm
 ln -s ~/.dotfiles/.config/rofi ~/.config/
+
+
+# Git
+sudo pacman -S git --noconfirm
+ln -s ~/.dotfiles/.config/git ~/.config/
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.dotfiles/.config/git/git-prompt.sh

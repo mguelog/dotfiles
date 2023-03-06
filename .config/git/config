@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = 100541741+mguelog@users.noreply.github.com
+	name = Miguel Oña Guerrero
+[core]
+	editor = code
