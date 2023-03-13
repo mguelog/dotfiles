@@ -1,15 +1,27 @@
+#!/bin/bash
 
 sudo pacman -Syu --noconfirm
 mkdir ~/.config
 mkdir ~/Images
 
+
+# AUR helper
+sudo pacman -S git base-devel --noconfirm
+cd /opt
+sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R $USER yay
+cd yay
+makepkg -si
+cd ~/.dotfiles
+
+
 # Display server
 sudo pacman -S xorg-server --noconfirm
 
 # Input devices configuration
-ln -s ~/.dotfiles/00-keyboard.conf /etc/X11/xorg.conf.d/
-ln -s ~/.dotfiles/30-touchpad.conf /etc/X11/xorg.conf.d/
-ln -s ~/.dotfiles/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/
+sudo ln -s ~/.dotfiles/00-keyboard.conf /etc/X11/xorg.conf.d/
+sudo ln -s ~/.dotfiles/30-touchpad.conf /etc/X11/xorg.conf.d/
+sudo ln -s ~/.dotfiles/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/
 
 
 # Display manager
