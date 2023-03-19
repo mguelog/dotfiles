@@ -63,6 +63,20 @@ sudo pacman -S rofi papirus-icon-theme rofi-emoji xdotool xclip noto-fonts-emoji
 ln -s ~/.dotfiles/.config/rofi ~/.config/
 
 
+# Theming
+sudo pacman -S gtk3 --noconfirm
+mkdir ~/.themes
+cd ~/.themes
+git clone https://github.com/UnnatShaneshwar/AtomOneDarkTheme.git onedark
+git clone https://github.com/dracula/gtk.git dracula
+mkdir ~/.icons
+cd ~/.icons
+git clone https://github.com/adhec/one-dark-icons onedark
+git clone https://github.com/m4thewz/dracula-icons dracula
+cd ~/.dotfiles
+ln -s ~/.dotfiles/.config/gtk-3.0 ~/.config/
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
