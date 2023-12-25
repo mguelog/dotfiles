@@ -41,7 +41,7 @@ sudo pacman -S picom --noconfirm
 
 # Wallpaper setter
 sudo pacman -S feh --noconfirm
-ln -s ~/.dotfiles/.wallpapers ~/Images/Wallpapers
+feh --bg-scale ~/.dotfiles/.wallpapers/arch-green.png &
 
 
 # Command-line shell
