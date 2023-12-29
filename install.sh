@@ -29,8 +29,7 @@ systemctl enable lightdm
 
 
 # Window manager
-sudo pacman -S qtile pacman-contrib python-pip --noconfirm
-pip3 install psutil
+sudo pacman -S qtile pacman-contrib python-psutil --noconfirm
 ln -s ~/.dotfiles/.config/qtile ~/.config/
 
 
