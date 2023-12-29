@@ -2,7 +2,6 @@
 
 sudo pacman -Syu --noconfirm
 mkdir ~/.config
-mkdir ~/Images
 
 
 # AUR helper
@@ -41,7 +40,6 @@ sudo pacman -S picom --noconfirm
 
 # Wallpaper setter
 sudo pacman -S feh --noconfirm
-feh --bg-scale ~/.dotfiles/.wallpapers/arch-green.png &
 
 
 # Command-line shell
