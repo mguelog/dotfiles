@@ -62,14 +62,19 @@ ln -s ~/.dotfiles/.config/rofi ~/.config/
 
 # Theming
 sudo pacman -S gtk3 --noconfirm
-mkdir ~/.themes
-cd ~/.themes
+
+mkdir ~/.dotfiles/.themes
+cd ~/.dotfiles/.themes
 git clone https://github.com/UnnatShaneshwar/AtomOneDarkTheme.git onedark
 git clone https://github.com/dracula/gtk.git dracula
-mkdir ~/.icons
-cd ~/.icons
+ln -s ~/.dotfiles/.themes ~/
+
+mkdir ~/.dotfiles/.icons
+cd ~/.dotfiles/.icons
 git clone https://github.com/adhec/one-dark-icons onedark
 git clone https://github.com/m4thewz/dracula-icons dracula
+ln -s ~/.dotfiles/.icons ~/
+
 cd ~/.dotfiles
 ln -s ~/.dotfiles/.config/gtk-3.0 ~/.config/
 
