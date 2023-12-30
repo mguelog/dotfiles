@@ -55,6 +55,21 @@ sudo pacman -S thunar --noconfirm
 ln -s ~/.dotfiles/.config/Thunar ~/.config/
 
 
+# Text editor
+sudo pacman -S code --noconfirm
+yay -S code-oss-marketplace --noconfirm
+ln -s ~/.dotfiles/.config/'Code - OSS' ~/.config/
+
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-python.python
+code --install-extension vivaxy.vscode-conventional-commits
+code --install-extension pejmannikram.vscode-auto-scroll
+code --install-extension naumovs.color-highlight
+
+code --install-extension zhuangtongfa.Material-theme
+code --install-extension dracula-theme.theme-dracula
+
+
 # Application launcher
 sudo pacman -S rofi papirus-icon-theme rofi-emoji xdotool xclip noto-fonts-emoji --noconfirm
 ln -s ~/.dotfiles/.config/rofi ~/.config/
