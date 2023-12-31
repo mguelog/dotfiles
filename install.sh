@@ -94,6 +94,11 @@ cd ~/.dotfiles
 ln -s ~/.dotfiles/.config/gtk-3.0 ~/.config/
 
 
+# Notification daemon
+sudo pacman -S notification-daemon --noconfirm
+sudo ln -s ~/.dotfiles/org.freedesktop.Notifications.service /usr/share/dbus-1/services/
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
