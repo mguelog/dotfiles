@@ -99,6 +99,11 @@ sudo pacman -S notification-daemon --noconfirm
 sudo ln -s ~/.dotfiles/org.freedesktop.Notifications.service /usr/share/dbus-1/services/
 
 
+# Fonts
+sudo pacman -S fontconfig noto-fonts ttf-ubuntu-mono-nerd --noconfirm
+ln -s ~/.dotfiles/.config/fontconfig ~/.config/
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
