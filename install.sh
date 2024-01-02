@@ -108,6 +108,10 @@ ln -s ~/.dotfiles/.config/fontconfig ~/.config/
 sudo pacman -S brightnessctl --noconfirm
 
 
+# Screen temperature
+sudo pacman -S redshift --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
