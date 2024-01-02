@@ -104,6 +104,10 @@ sudo pacman -S fontconfig noto-fonts ttf-ubuntu-mono-nerd --noconfirm
 ln -s ~/.dotfiles/.config/fontconfig ~/.config/
 
 
+# Backlight control
+sudo pacman -S brightnessctl --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
