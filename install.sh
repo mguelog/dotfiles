@@ -121,6 +121,10 @@ sudo pacman -S redshift --noconfirm
 sudo pacman -S pulseaudio pamixer pavucontrol --noconfirm
 
 
+# Media control
+sudo pacman -S playerctl --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
