@@ -117,6 +117,10 @@ sudo pacman -S brightnessctl --noconfirm
 sudo pacman -S redshift --noconfirm
 
 
+# Audio control
+sudo pacman -S pulseaudio pamixer pavucontrol --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
