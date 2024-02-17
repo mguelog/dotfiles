@@ -104,6 +104,11 @@ sudo pacman -S fontconfig noto-fonts ttf-ubuntu-mono-nerd --noconfirm
 ln -s ~/.dotfiles/.config/fontconfig ~/.config/
 
 
+# Screen capture
+sudo pacman -S flameshot --noconfirm
+ln -s ~/.dotfiles/.config/flameshot ~/.config/
+
+
 # Backlight control
 sudo pacman -S brightnessctl --noconfirm
 
