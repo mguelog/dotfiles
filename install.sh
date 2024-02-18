@@ -130,6 +130,10 @@ sudo pacman -S firefox --noconfirm
 yay -S firefox-extension-arch-search --noconfirm
 
 
+# Email client
+sudo pacman -S thunderbird --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
