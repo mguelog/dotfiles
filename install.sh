@@ -125,6 +125,11 @@ sudo pacman -S pulseaudio pamixer pavucontrol --noconfirm
 sudo pacman -S playerctl --noconfirm
 
 
+# Web browser
+sudo pacman -S firefox --noconfirm
+yay -S firefox-extension-arch-search --noconfirm
+
+
 # Git
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
