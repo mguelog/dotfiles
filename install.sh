@@ -138,3 +138,8 @@ sudo pacman -S thunderbird --noconfirm
 sudo pacman -S git --noconfirm
 ln -s ~/.dotfiles/.config/git ~/.config/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.dotfiles/.config/git/git-prompt.sh
+
+
+# Utilities
+sudo pacman -S neofetch udiskie htop zip exa imv vlc --noconfirm
+yay -S ccat --noconfirm
