@@ -16,6 +16,7 @@ cd ~/.dotfiles
 
 # Display server
 sudo pacman -S xorg-server --noconfirm
+ln -s ~/.dotfiles/.xprofile ~/
 
 # Input devices configuration
 sudo ln -s ~/.dotfiles/00-keyboard.conf /etc/X11/xorg.conf.d/

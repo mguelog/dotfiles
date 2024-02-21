@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Compositor
+picom &
+
+# Automounter
+udiskie &
+
+# Wallpaper setter
+feh --bg-scale ~/.dotfiles/.wallpapers/arch-green.png &
+
