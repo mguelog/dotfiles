@@ -142,5 +142,5 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-pro
 
 
 # Utilities
-sudo pacman -S neofetch udiskie htop zip exa imv vlc --noconfirm
+sudo pacman -S neofetch udiskie htop unzip zip exa imv vlc --noconfirm
 yay -S ccat --noconfirm
