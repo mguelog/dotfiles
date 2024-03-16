@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
 cbatticon &
-volumeicon &
 nm-applet &
+pasystray &
 flameshot &

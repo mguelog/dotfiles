@@ -141,6 +141,10 @@ ln -s ~/.dotfiles/.config/git ~/.config/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh > ~/.dotfiles/.config/git/git-prompt.sh
 
 
+# Systray
+sudo pacman -S cbatticon network-manager-applet pasystray --noconfirm
+
+
 # Utilities
 sudo pacman -S neofetch udiskie htop unzip zip exa imv vlc --noconfirm
 yay -S ccat --noconfirm
