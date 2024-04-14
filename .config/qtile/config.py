@@ -123,6 +123,8 @@ keys = [
         desc="Skip to the next track"),
     Key([mod], "comma", lazy.spawn("playerctl previous"),
         desc="Skip to the previous track"),
+    Key([mod], "i", lazy.spawn(path.join(path.expanduser('~'), '.config', 'qtile', 'media_info.sh')), 
+        desc="Show currently playing")
 
 ]
 
