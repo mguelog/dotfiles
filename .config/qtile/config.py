@@ -85,8 +85,6 @@ keys = [
     Key([mod], "right", lazy.spawn("brightnessctl set +5%"),
         desc="Increase screen brightness"),
 
-    # Applications
-
     # Rofi menu
     Key([mod], "m", lazy.spawn("rofi -show drun"),
         desc="Launch Rofi menu"),
@@ -106,15 +104,6 @@ keys = [
     # Lauch browser
     Key([mod], "b", lazy.spawn("firefox"),
         desc="Launch browser"),
-    # Lauch Chrome
-    Key([mod], "c", lazy.spawn("google-chrome-stable"),
-        desc="Launch Google Chrome"),
-    # Lauch Notion
-    Key([mod], "n", lazy.spawn("notion-app"),
-        desc="Lauch Notion"),
-    # Lauch Discord
-    Key([mod], "d", lazy.spawn("discord"),
-        desc="Lauch Discord"),
 
     # Take screenshot
     Key([mod], "s", lazy.spawn("flameshot gui"),
