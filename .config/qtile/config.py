@@ -85,6 +85,13 @@ keys = [
     Key([mod], "right", lazy.spawn("brightnessctl set +5%"),
         desc="Increase screen brightness"),
 
+    # Eye comfort on
+    Key([mod], "y", lazy.spawn("redshift -P -O 3000"),
+        desc="Turn on eye comfort"),
+    # Eye comfort off
+    Key([mod, "shift"], "y", lazy.spawn("redshift -x"),
+        desc="Turn off eye comfort"),
+
     # Rofi menu
     Key([mod], "m", lazy.spawn("rofi -show drun"),
         desc="Launch Rofi menu"),
