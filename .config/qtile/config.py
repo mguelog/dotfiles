@@ -130,7 +130,7 @@ keys = [
 
 ]
 
-groups = [Group(i) for i in [" ", "爵 ", " ", " ", " ", " ", " ﭮ", " "]]
+groups = [Group(i) for i in [" ", "󰖟 ", " ", " ", " ", " ", " ", "󰌨 "]]
 
 for i, group in enumerate(groups):
     actual_key = str(i + 1)
@@ -171,9 +171,9 @@ def powerline(fg, bg):
     return widget.TextBox(
         foreground=[fg, fg],
         background=[bg, bg],
-        text="",  # Icon: nf-oct-triangle_left
-        fontsize=37,
-        padding=-3
+        text="",
+        fontsize=38,
+        padding=2
     )
 
 
@@ -247,7 +247,7 @@ screens = [
                 widget.TextBox(
                     background=colors['color2'][0],
                     fontsize=18,
-                    text=' '
+                    text=' '
                 ),
                 widget.CPU(
                     background=colors['color2'][0],
@@ -257,7 +257,7 @@ screens = [
                 widget.TextBox(
                     background=colors['color3'][0],
                     fontsize=18,
-                    text=' '
+                    text='󰃭 '
                 ),
                 widget.Clock(
                     format='%d/%m/%Y',
