@@ -218,11 +218,14 @@ screens = [
                     font='UbuntuMono Nerd Font Bold',
                     padding=8,
                     notification_on=False,
+                    length_pomodori=50,
+                    length_short_break=10,
+                    length_long_break=30,
+                    num_pomodori=3,
                     prefix_inactive=' ',
                     prefix_paused=' ',
                     prefix_break='',
-                    prefix_long_break=''
-
+                    prefix_long_break='  '
                 ),
 
                 powerline(colors['color1'][0], colors['background'][0]),
