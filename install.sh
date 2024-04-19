@@ -30,7 +30,7 @@ systemctl enable lightdm
 
 
 # Window manager
-sudo pacman -S qtile pacman-contrib python-psutil --noconfirm
+sudo pacman -S qtile pacman-contrib python-psutil python-dbus-next --noconfirm
 ln -s ~/.dotfiles/.config/qtile ~/.config/
 
 
