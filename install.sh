@@ -101,7 +101,7 @@ sudo ln -s ~/.dotfiles/org.freedesktop.Notifications.service /usr/share/dbus-1/s
 
 
 # Fonts
-sudo pacman -S fontconfig noto-fonts ttf-ubuntu-mono-nerd --noconfirm
+sudo pacman -S fontconfig noto-fonts ttf-ubuntu-mono-nerd noto-fonts-cjk --noconfirm
 ln -s ~/.dotfiles/.config/fontconfig ~/.config/
 
 
