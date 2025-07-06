@@ -128,7 +128,6 @@ sudo pacman -S playerctl --noconfirm
 
 # Web browser
 sudo pacman -S firefox --noconfirm
-yay -S firefox-extension-arch-search --noconfirm
 
 
 # Email client
