@@ -58,7 +58,7 @@ ln -s ~/.dotfiles/.config/Thunar ~/.config/
 
 # Text editor
 sudo pacman -S code --noconfirm
-yay -S code-oss-marketplace --noconfirm
+yay -S code-marketplace --noconfirm
 ln -s ~/.dotfiles/.config/'Code - OSS' ~/.config/
 
 code --install-extension ms-vscode.cpptools
