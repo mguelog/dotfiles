@@ -145,5 +145,5 @@ sudo pacman -S cbatticon network-manager-applet pasystray --noconfirm
 
 
 # Utilities
-sudo pacman -S neofetch udiskie htop unzip zip exa imv vlc --noconfirm
+sudo pacman -S fastfetch udiskie htop unzip zip exa less imv vlc --noconfirm
 yay -S ccat --noconfirm
